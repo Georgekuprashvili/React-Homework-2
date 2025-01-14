@@ -75,6 +75,7 @@ body {
 }
 .image_cont {
   display: flex;
+  align-items: center;
   width: 302px;
   height: 33px;
   gap: 16px;
