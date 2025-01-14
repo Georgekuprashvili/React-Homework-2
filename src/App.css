@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  background: var(--very-dark-blue-main-bg, #0d192c);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.main_container {
+  width: 350px;
+  height: 596px;
+  border-radius: 15px;
+  background: var(--very-dark-blue-card-bg, #15263f);
+  box-shadow: 0px 25px 50px 0px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
+}
+.heading1 {
+  width: 302px;
+  color: var(--White, #fff);
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: Outfit;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.paragraph1 {
+  width: 302px;
+  color: var(--Soft-Blue, #8bacd9);
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: Outfit;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 26px;
+}
+.icon_box {
+  display: flex;
+  gap: 5px;
+}
+.paragraph2 {
+  color: var(--Cyan, #00fff8);
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: Outfit;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.paragraph_container {
+  display: flex;
+  justify-content: space-between;
+  width: 302px;
+}
+.paragraph3 {
+  color: var(--Soft-Blue, #8bacd9);
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: Outfit;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.line {
+  width: 302px;
+  height: 1px;
+  background: var(--very-dark-blue-line, #2e405a);
+}
+.image_cont {
+  display: flex;
+  width: 302px;
+  height: 33px;
+  gap: 16px;
+}
+.paragraph4 {
+  color: var(--Soft-Blue, #8bacd9);
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: Outfit;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+span {
+  color: var(--White, #fff);
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: Outfit;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
